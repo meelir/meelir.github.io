@@ -93,14 +93,15 @@
   <div class="wrap">
     <a class="back" href="/">&larr; Meelir Labs</a>
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated: September 28, 2026</p>
+    <p class="updated">Last updated: November 3, 2026</p>
 
     <p class="summary">
-      Aaven doesn't have user accounts, doesn't run its own servers, doesn't use
-      advertising or analytics services, and doesn't collect or transmit your
-      personal information to us or to any third party. Everything Aaven does —
-      reading your preferences, summarizing articles, generating speech — happens
-      locally on your device.
+      Aaven doesn't have user accounts, doesn't run its own servers, doesn't add
+      advertising or analytics services of its own, and doesn't collect or transmit
+      your personal information to us or to any third party. Everything Aaven does —
+      reading your preferences, summarizing articles, translating, generating speech —
+      happens locally on your device. The one exception is limited
+      diagnostic data that Google's ML Kit sends to Google on Android, described below.
     </p>
 
     <h2>No accounts, no sign-up</h2>
@@ -112,11 +113,14 @@
     <h2>On-device processing</h2>
     <p>For each article, Aaven creates its own short spoken summary — assembled from the article's own leading sentences — and reads it aloud using your device's own on-device speech engine. This happens entirely on your device: article text and audio are never uploaded anywhere. The original article itself is never altered or republished — Aaven's summary is a separate, independent piece of audio, and the source article stays exactly as its publisher wrote it, one tap away.</p>
 
+    <h2>Language detection and translation (Android)</h2>
+    <p>To detect each article's language and translate briefings into your chosen language, the Android app uses Google ML Kit, which runs on your device: article text is processed locally and is never uploaded. The first time a language is needed, its translation model is downloaded from Google. As part of its normal operation, ML Kit sends Google limited diagnostic information — such as device model and OS version, app version, a per-installation identifier, performance metrics, error codes, and which languages were detected or translated. This does not include your name, any account, the articles you read, or anything you type, and it is never sent to us. Google uses it to monitor and improve ML Kit; see <a href="https://developers.google.com/ml-kit/android-data-disclosure">Google's ML Kit data disclosure</a>.</p>
+
     <h2>What's stored, and where</h2>
     <p>Your preferences (selected categories, sources, voice, and playback settings) and a local cache of recent articles are stored only in Aaven's own app storage on your device. None of it is sent to us or synced to any Aaven-operated service. Like any app, this data may be included in your device's own backups, governed by your device and platform, not something Aaven separately controls. Deleting the app removes this data from your device.</p>
 
-    <h2>No advertising or analytics</h2>
-    <p>Aaven does not include any advertising SDKs, analytics SDKs, or third-party tracking libraries. We don't know how you use the app beyond what's necessary for it to function on your own device.</p>
+    <h2>No advertising, tracking, or analytics of our own</h2>
+    <p>Aaven does not include any advertising SDKs, analytics SDKs, or third-party tracking libraries, and we receive no data about how you use the app. The only diagnostic data that leaves your device is the ML Kit information described above, which goes to Google, not to us.</p>
 
     <h2>In-app purchases</h2>
     <p>Any Aaven Plus subscription is processed entirely through the app store you installed Aaven from. Aaven never receives or stores your payment details — that transaction is governed by that store's own privacy policy, not this one.</p>
