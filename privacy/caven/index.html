@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Caven Privacy Policy</title>
+<meta name="description" content="Privacy policy for Caven: Mileage Log, by Meelir Labs." />
+<style>
+  :root {
+    --bg: #0b0b0d;
+    --bg-elevated: #141416;
+    --text-primary: #f2ede4;
+    --text-secondary: #a8a29a;
+    --text-tertiary: #726c64;
+    --gold: #d4af6a;
+    --gold-dim: #9c8557;
+    --border: #26241f;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #faf8f4;
+      --bg-elevated: #ffffff;
+      --text-primary: #1c1a16;
+      --text-secondary: #57524a;
+      --text-tertiary: #8a8478;
+      --gold: #a67c2e;
+      --gold-dim: #8a6a28;
+      --border: #e6e0d4;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text-primary);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 56px 20px 80px;
+  }
+  a.back {
+    display: inline-block;
+    margin-bottom: 28px;
+    color: var(--gold-dim);
+    text-decoration: none;
+    font-size: 13px;
+  }
+  a.back:hover { text-decoration: underline; }
+  h1 {
+    font-size: 26px;
+    font-weight: 600;
+    margin: 0 0 6px;
+  }
+  .updated {
+    font-size: 12px;
+    color: var(--text-tertiary);
+    margin: 0 0 28px;
+  }
+  .summary {
+    background: color-mix(in srgb, var(--gold) 12%, transparent);
+    border-radius: 10px;
+    padding: 16px 18px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 36px;
+  }
+  h2 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 28px 0 6px;
+  }
+  p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--text-secondary);
+    margin: 0 0 4px;
+  }
+  hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 36px 0;
+  }
+  .contact a { color: var(--gold); text-decoration: none; }
+  .contact a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="/">&larr; Meelir Labs</a>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: November 11, 2026</p>
+
+    <p class="summary">
+      Caven has no user accounts, runs no servers of its own, shows no advertising, and adds no analytics
+      or tracking of its own. Your trips, locations and settings stay on your phone, and Caven never sends
+      them to us or to anyone else. The only outside parties involved are Google Play services (which
+      provides location and driving detection on Android) and Google Play (purchases and device backups),
+      each under Google's own policies, described below.
+    </p>
+
+    <h2>No accounts, no sign-up</h2>
+    <p>Caven doesn't ask you to create an account or provide your name, email, or any other identifying information to use the app.</p>
+
+    <h2>What Caven records</h2>
+    <p>While you record a trip, Caven uses your phone's location to measure the distance driven. It does not keep the route. For each trip it saves only the start and end time, the distance, the start and end coordinates, and the details you choose to add: a business purpose, place names, and whether the trip is business or personal. It also saves your settings, such as your cents-per-mile rate. All of this is stored in Caven's private storage on your phone.</p>
+
+    <h2>How location is obtained</h2>
+    <p>Caven asks Android for your location through Google Play services' fused location provider, or through your phone's GPS if Google Play services isn't available. If you turn on "Detect drives automatically", Caven also uses Google Play services' activity recognition to learn when your phone is in a vehicle, so a trip can start by itself. This processing is done by Google Play services on your phone under <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>. Caven itself does not transmit your location anywhere.</p>
+
+    <h2>Location in the background</h2>
+    <p>If you turn on automatic detection, Caven needs the "Allow all the time" location permission so a trip can start while the app is closed. It is used only to record trips for your mileage log. Caven explains this and asks before requesting the permission. Manual Start and Stop works without background location, and you can turn automatic detection off at any time.</p>
+
+    <h2>Notifications and boot</h2>
+    <p>While a trip is being recorded, Android requires Caven to show a notification. Caven also listens for your phone restarting so it can re-enable automatic detection if you had it turned on. Neither sends any data anywhere.</p>
+
+    <h2>Reports you export</h2>
+    <p>When you export a CSV or PDF mileage report, Caven creates the file in temporary storage and hands it to the app you pick in Android's share sheet (for example email or Drive). What happens to the file after that is governed by that app. Caven does not upload it.</p>
+
+    <h2>Backups</h2>
+    <p>Like most apps, Caven's saved trips and settings may be included in your Google account's Android device backups, which are governed by your device and Google, not something Caven separately controls. A trip that is still being recorded is never included. Deleting the app removes its data from your device.</p>
+
+    <h2>Deleting your data</h2>
+    <p>Use "Delete all trips" in Settings to remove every saved trip from your phone, or uninstall the app. Because Caven keeps nothing on any server, there is nothing else to delete.</p>
+
+    <h2>No advertising, tracking, or analytics of our own</h2>
+    <p>Caven includes no advertising, analytics, or tracking libraries, and it does not request the Android internet permission, so it cannot make network connections of its own. We receive no data about you or how you use the app.</p>
+
+    <h2>In-app purchases</h2>
+    <p>The optional Caven Pro upgrade, which adds report export, is processed entirely by Google Play. Caven never receives or stores your payment details; that transaction is governed by Google Play's own policies.</p>
+
+    <h2>Children's privacy</h2>
+    <p>Caven is not directed at children and does not collect personal information from anyone, including children.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>If this policy changes, we'll update the date at the top of this page. Continued use of the app after a change means you accept the updated policy.</p>
+
+    <hr />
+
+    <h2>Contact</h2>
+    <p class="contact">Questions about this policy or the app can be sent to <a href="mailto:support.aaven@gmail.com">support.aaven@gmail.com</a>.</p>
+  </div>
+</body>
+</html>
