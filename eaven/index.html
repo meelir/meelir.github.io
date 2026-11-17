@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Eaven Support</title>
+<meta name="description" content="Help and contact for Eaven: Free TV Remote, by Meelir Labs." />
+<style>
+  :root {
+    --bg: #0b0b0d;
+    --bg-elevated: #141416;
+    --text-primary: #f2ede4;
+    --text-secondary: #a8a29a;
+    --text-tertiary: #726c64;
+    --gold: #d4af6a;
+    --gold-dim: #9c8557;
+    --border: #26241f;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #faf8f4;
+      --bg-elevated: #ffffff;
+      --text-primary: #1c1a16;
+      --text-secondary: #57524a;
+      --text-tertiary: #8a8478;
+      --gold: #a67c2e;
+      --gold-dim: #8a6a28;
+      --border: #e6e0d4;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text-primary);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 56px 20px 80px;
+  }
+  a.back {
+    display: inline-block;
+    margin-bottom: 28px;
+    color: var(--gold-dim);
+    text-decoration: none;
+    font-size: 13px;
+  }
+  a.back:hover { text-decoration: underline; }
+  h1 {
+    font-size: 26px;
+    font-weight: 600;
+    margin: 0 0 6px;
+  }
+  .updated {
+    font-size: 12px;
+    color: var(--text-tertiary);
+    margin: 0 0 28px;
+  }
+  .summary {
+    background: color-mix(in srgb, var(--gold) 12%, transparent);
+    border-radius: 10px;
+    padding: 16px 18px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 36px;
+  }
+  h2 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 28px 0 6px;
+  }
+  p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--text-secondary);
+    margin: 0 0 4px;
+  }
+  hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 36px 0;
+  }
+  .contact a { color: var(--gold); text-decoration: none; }
+  .contact a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="/">&larr; Meelir Labs</a>
+    <h1>Eaven Support</h1>
+    <p class="updated">Eaven: Free TV Remote. A remote control for your smart TV, on your phone.</p>
+
+    <h2>Getting started</h2>
+    <p>1. Put your phone on the same Wi-Fi network as your TV, and turn the TV on.</p>
+    <p>2. Open Eaven and tap your TV in the list. Eaven finds TVs on your network by itself, so you never type an address.</p>
+    <p>3. Follow the pairing steps on screen. Some TVs show a message to accept, some show a code to type.</p>
+    <p>Every button is free. Eaven Plus is optional: it removes ads and adds extras such as more saved TVs, widgets and the Apple Watch remote.</p>
+
+    <h2>Common questions</h2>
+    <p><strong>My TV is not listed.</strong> Check that the phone and the TV are on the same Wi-Fi network, and that the TV is on. On iPhone, allow Eaven to use the Local Network in Settings &gt; Privacy &amp; Security &gt; Local Network.</p>
+    <p><strong>My Roku is listed but will not pair.</strong> On the Roku, with its own remote, open Settings &gt; System &gt; Advanced system settings &gt; Control by mobile apps and choose Enabled (or Permissive).</p>
+    <p><strong>Samsung and LG.</strong> The TV shows a message. Choose Allow (or Accept) with the TV's own remote.</p>
+    <p><strong>Google TV, Vizio and other TVs that show a code.</strong> Type the code the TV shows. Google TV shows 6 characters; Vizio shows a 4-digit PIN.</p>
+    <p><strong>Sony Bravia.</strong> In the TV's network settings, turn on IP control and set an authentication key (a Pre-Shared Key), then type that key in Eaven.</p>
+    <p><strong>Kodi.</strong> In Kodi, open Settings &gt; Services &gt; Control and turn on "Allow remote control via HTTP". If you set a password, type it in Eaven.</p>
+    <p><strong>DirecTV.</strong> On the receiver, turn on External Device Access (Settings &gt; Whole-Home).</p>
+    <p><strong>TiVo.</strong> On the box, turn on Network Remote Control in the settings.</p>
+    <p><strong>Panasonic.</strong> Turn on the TV remote app option in the TV's network settings. Newer models show a PIN to type.</p>
+    <p><strong>Is my TV supported?</strong> Eaven works with Roku, Samsung, LG, Fire TV, Vizio, Google TV, Apple TV, Sony Bravia, Philips, TiVo, Kodi, Panasonic, Sharp, DirecTV, and older Samsung and LG models. Support for the less common ones was built from the makers' published documents and tested on simulated TVs, so if yours does not respond, please tell us which model it is.</p>
+    <p><strong>Does Eaven need an account or a server?</strong> No. Eaven talks to your TV directly over your home Wi-Fi.</p>
+    <p><strong>Why does it ask to track me on iPhone?</strong> Only to let the ad network show more relevant ads. If you say no, the app works the same and ads are simply not personalised. You can change it in Settings &gt; Privacy &amp; Security &gt; Tracking.</p>
+
+    <h2>Privacy</h2>
+    <p class="contact">Your TV list stays on your phone. Read the <a href="/privacy/eaven/">privacy policy</a>.</p>
+
+    <hr />
+
+    <h2>Contact</h2>
+    <p class="contact">Questions about Eaven can be sent to <a href="mailto:support.aaven@gmail.com">support.aaven@gmail.com</a>. Eaven is not affiliated with or endorsed by any TV maker; trademarks belong to their owners.</p>
+  </div>
+</body>
+</html>
